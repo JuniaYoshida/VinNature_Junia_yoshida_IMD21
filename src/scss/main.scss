@@ -12,3 +12,15 @@ img,
 video {
   display: block;
 }
+
+body {
+  width: 1440px;
+  height: 3871px;
+  background: linear-gradient(180deg, #1b1b1b 12%, #000 43%);
+}
+
+.menu {
+  width: 1116px;
+  height: 37px;
+  flex-shrink: 0;
+}
