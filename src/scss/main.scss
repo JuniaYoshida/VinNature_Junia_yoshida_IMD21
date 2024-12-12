@@ -135,11 +135,26 @@ h3 {
   margin: 30px 30px;
 }
 
-.prize {
+.price {
   color: #000;
   font-family: Manrope;
   font-size: 15px;
   font-weight: 700;
+}
+
+.article img {
+  padding-top: 30px;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.article {
+  padding-top: 130px;
+  text-align: center;
+}
+
+.article-contenu {
+  padding-top: 40px;
 }
 
 footer {
