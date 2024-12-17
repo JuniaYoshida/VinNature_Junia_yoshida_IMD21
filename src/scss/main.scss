@@ -58,6 +58,12 @@ h1 {
   line-height: normal;
 }
 
+.logo-droplet {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
 .logo-droplet img {
   width: 48px;
   height: 95px;
@@ -155,6 +161,23 @@ h3 {
 
 .article-contenu {
   padding-top: 40px;
+}
+
+.article-contenu a {
+  color: #9f1d21;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.cave h3 {
+  padding-top: 230px;
+  padding-bottom: 10px;
+}
+
+.cave {
+  padding-bottom: 200px;
 }
 
 footer {
