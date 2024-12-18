@@ -10,6 +10,7 @@ a {
   color: inherit;
 }
 body {
+  overflow: scroll;
   background-image: url(../img/B-Homepage.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -116,22 +117,16 @@ h3 {
   font-weight: 700;
 }
 
-.gamme-top {
-  padding: 120px 110px;
-  padding-top: 180px;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
+.gamme {
+  padding: 200px 110px;
 }
 
-.gamme-top img {
-  width: 114.599px;
-  height: 120.342px;
-  transform: rotate(0.306deg);
-  margin-left: 300px;
+.bar {
+  margin-top: -300px;
 }
-
+.bottles {
+  margin-top: -125px;
+}
 .bottles img {
   width: 259px;
   height: 329px;
@@ -159,15 +154,25 @@ h3 {
   text-align: center;
 }
 
+.changing-button {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .article-contenu {
-  padding-top: 40px;
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .article-contenu a {
   color: #9f1d21;
   text-align: center;
   font-family: Manrope;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -178,6 +183,19 @@ h3 {
 
 .cave {
   padding-bottom: 200px;
+}
+.cave-image img {
+  width: 1392.5px;
+  height: 348px;
+}
+
+.cave-image {
+  display: flex;
+  justify-content: center;
+}
+
+.button-cave {
+  margin-top: -200px;
 }
 
 footer {
